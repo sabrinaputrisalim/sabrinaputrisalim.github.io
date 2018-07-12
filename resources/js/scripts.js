@@ -15,3 +15,31 @@ $('.nav-prompt').click(function () {
     }
 
 });
+
+/* nav active class */
+
+function activeMenu() {
+
+    var url = window.location.href; // the page we are on 
+
+    $('.nav-inner a').filter( function() {
+
+        //this .href is looking through the nav items 
+        return this.href == url;
+    }).addClass('active');
+}
+
+activeMenu();
+
+/* image gallery */
+
+function imageGallery() {
+    
+    if (!$('.image-gallery').length) {
+        return;
+    }
+
+    $('.image-gallery a').simpleLightbox();
+}
+
+imageGallery(); 
