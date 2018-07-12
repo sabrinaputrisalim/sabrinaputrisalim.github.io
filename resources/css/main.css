@@ -397,6 +397,10 @@ MODULES
   height: 100%;
 }
 
+.gallery-brief {
+    text-align: justify;
+}
+
 /* hero */
 .hero-module {
     position: relative;
