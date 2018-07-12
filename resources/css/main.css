@@ -247,10 +247,6 @@ NAVIGATION
     .nav-inner a {
         border-bottom: 2px solid transparent;
     }
-
-    .nav-inner a:hover {
-        text-decoration: bold;
-    }
 }
 
 @media screen and (max-width: 800px) {
